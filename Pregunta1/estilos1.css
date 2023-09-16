@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
+main{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    background-color: #dddddd;
+}
+
+div{
+    margin-left: center;
+    text-align: center;
+}
+
+.sofa{
+    padding-top: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+.lista{
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 25px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-family: 'Lato', sans-serif;
+}
+
+.lista li:nth-of-type(1){
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.lista li:nth-of-type(2){
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.lista li:nth-of-type(3){
+    font-size: 12px;
+    margin-bottom: 9px;
+    font-weight: bolder;
+}
+
+.lista li:nth-of-type(4){
+    font-size: 18px; 
+    font-weight: bolder;
+}
+
+span{
+    border-radius: 60px;
+    font-size: 13;
+    background-color: red;
+    color: white;
+    font-weight: lighter;
+}
+
+.lista li:nth-of-type(5){
+    font-size: 14px; 
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.lista li:nth-of-type(6){
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 15px; 
+    font-weight: lighter;
+}
+
+.lista li:nth-of-type(7){
+    margin-left: 50px;
+    font-size: 15px; 
+    font-weight: lighter;
+}
+
+button{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px; 
+    font-weight: bolder;
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ADD500;
+    border-color: #ADD500;
+}
